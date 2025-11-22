@@ -1,0 +1,117 @@
+.MainHeader{
+    width:100% ;
+    height: 70px;
+   background-color: hsl(0, 0%, 100%);
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    
+
+}
+.SecondHeaderDiv{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    width: 60%;
+    height: 70px;
+    /* border: 2px solid; */
+}
+.inputDiv{
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.MainHeader ul {
+    /* border: 2px solid;  */
+    display: flex;
+     align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content:space-between;
+    font-size: 140%;
+    background-color: white;
+    width: 13%;
+    list-style: none;
+    height: 60px;
+    
+}
+.MainHeader li  i{
+    /* border: 2px solid; */
+    text-decoration-line: none;
+    width: 35px;
+    height: 40px;
+    display: flex;
+       align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content:center;
+    margin-right: 19px;
+    border-radius: 4px;
+
+}
+
+
+.MainHeader i:hover{
+    background-color: rgb(6, 119, 81);
+    cursor: pointer;
+    color: white;
+    transition: calc(0.9s);
+    width: 35px;
+    height: 40px;
+}
+.search-btn{
+    border: 2px solid;
+    color: azure;
+}
+.SecondHeaderDiv h1{
+    color: #65c35d;
+    font-size: 40px;
+    margin-right: 90px;
+}
+.search-btn {
+    /* background-color: rgb(6, 209, 30); */
+    background-color:white;
+     color: black;
+    
+    width: 550px;
+    height: 43px;
+    border: 3px solid;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+
+    padding: 0 12px;
+}
+.search-btn:hover{
+    background-color:#65c35d ;
+color: white;
+ width: 550px;
+    height: 48px;
+    transition: calc(0.9s);
+}
+.search-btn::placeholder{
+    color:black;
+}
+.search-btn:hover:placeholder{
+    color: white;
+}
+.click-btn{
+    height: 48px;   
+    width: 80px; 
+    border: 3px solid;
+    border-radius: 0 10px 10px 0;
+    font-size: 28px;
+    background-color: #65c35d;
+    cursor: pointer;
+
+}
+
