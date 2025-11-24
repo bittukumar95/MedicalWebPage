@@ -13,13 +13,11 @@ function Navbar() {
             About{" "}
           </HashLink>
         </li>
-        {/* <li>
-          <HashLink smooth to="/#contact">
-            About{" "}
-          </HashLink>
-        </li> */}
+
         <li>
-          <Link to="/category">Category </Link>
+          <HashLink smooth to="/#category">
+            Category{" "}
+          </HashLink>
         </li>
         <li>
           <Link to="/product">Product Details</Link>
